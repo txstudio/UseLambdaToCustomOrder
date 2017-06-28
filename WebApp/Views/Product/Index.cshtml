@@ -1,0 +1,112 @@
+@model WebApp.Controllers.ProductViewModel
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>需求</h3>
+        <ul>
+            <li>依廠牌進行排序作業。</li>
+            <li>排序順序：Microsoft、NOKIA、HTC、Apple。</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>預設結果</h3>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                此區域依照查詢結果依序呈現商品清單。
+                <span class="glyphicon glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>名稱</th>
+                    <th>廠牌</th>
+                    <th>--</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Product != null)
+                {
+                    foreach (var item in Model.Product)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Brand</td>
+                            <td>--</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <h3>依品牌排序</h3>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                此區域依照品牌名稱顯示商品清單。
+                <span class="glyphicon glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>名稱</th>
+                    <th>廠牌<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></th>
+                    <th>索引</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ProductOrderByBrandName != null)
+                {
+                    foreach (var item in Model.ProductOrderByBrandName)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Brand</td>
+                            <td>--</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <h3>自訂排序</h3>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                此區域依照自訂排序的順序依序顯示商品清單。
+                <span class="glyphicon glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead> 
+                <tr>
+                    <th>名稱</th>
+                    <th>廠牌</th>
+                    <th>索引<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ProductInCustomOrder != null)
+                {
+                    foreach (var item in Model.ProductInCustomOrder)
+                    {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Brand</td>
+                        <td>@item.Sort</td>
+                    </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

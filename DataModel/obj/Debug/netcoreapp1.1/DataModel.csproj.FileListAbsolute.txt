@@ -1,0 +1,7 @@
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\bin\Debug\netcoreapp1.1\DataModel.deps.json
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\bin\Debug\netcoreapp1.1\DataModel.dll
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\bin\Debug\netcoreapp1.1\DataModel.pdb
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\obj\Debug\netcoreapp1.1\DataModel.AssemblyInfo.cs
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\obj\Debug\netcoreapp1.1\DataModel.dll
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\obj\Debug\netcoreapp1.1\DataModel.pdb
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\DataModel\obj\Debug\netcoreapp1.1\DataModel.csprojResolveAssemblyReference.cache

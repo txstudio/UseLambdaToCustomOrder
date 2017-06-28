@@ -1,0 +1,11 @@
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\WebApp.deps.json
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\WebApp.runtimeconfig.json
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\WebApp.runtimeconfig.dev.json
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\DataModel.dll
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\obj\Debug\netcoreapp1.1\WebApp.csprojResolveAssemblyReference.cache
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\obj\Debug\netcoreapp1.1\WebApp.AssemblyInfo.cs
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\WebApp.dll
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\WebApp.pdb
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\bin\Debug\netcoreapp1.1\DataModel.pdb
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\obj\Debug\netcoreapp1.1\WebApp.dll
+D:\Github\UseReadOnlyPropertyAndLambdaToCustomOrder\WebApp\obj\Debug\netcoreapp1.1\WebApp.pdb
